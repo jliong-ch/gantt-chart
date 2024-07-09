@@ -1,0 +1,57 @@
+button {
+  background: none;
+  border: none;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+// remove time row's content (12:00 am contents etc)
+div.k-scheduler-header-wrap table.k-scheduler-table tr:last-child {
+  display: none;
+}
+
+// remove time row's header
+.k-scheduler-head .k-scheduler-times tr:last-child {
+  display: none;
+}
+
+.k-event {
+  // !important are to remove default styling
+  height: 61px !important; // 46px + 8px (pt) + 8px (pb), size for component is hardcoded
+  padding: 0 !important;
+  box-shadow: none !important;
+
+  background-color: transparent;
+  &.k-selected {
+    background-color: transparent;
+  }
+}
+.k-toolbar {
+  display: none;
+}
+
+.slot-button {
+  background-color: #fd9800;
+  box-shadow: inset 1px 1px 1px 1px black !important;
+  &.highlighted {
+    background-color: #00feff;
+  }
+}
+.k-scheduler-body .k-slot-cell.k-scheduler-cell.k-heading-cell > div {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  > .group-header-button {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.display-box {
+  margin: 0 0 20px;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 1.5em;
+}
