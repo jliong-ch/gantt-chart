@@ -2,6 +2,13 @@
 
 A simple non-relational Gantt Chart with simple interactions for task selection(s)
 
+## Run Chart
+
+1. Install angular/cli 
+2. Clone the repo
+3. Run `npm i`
+4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
 ## Project details
 
 - This is completed with KendoUI for Angular's components
@@ -26,11 +33,7 @@ If wish to increase range of date, simply change the value of `TimelineConfig.nu
 
 ## Things not done
 
-Detailed styling is not done as it was not necessary and building whole skeleton of project styles are excessively time-consuming
-
-## Run Chart
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Detailed styling is not done as it was not that necessary and building whole skeleton of project styles are excessively time-consuming
 
 ## Project metadata
 
